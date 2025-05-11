@@ -144,11 +144,11 @@ tools = [
                 "properties": {
                     "video_id": {
                         "type": "string",
-                        "description": "Video_id to use to search for the video to transcribe on Youtube",
+                        "description": "Video_ID to use to search for the video to transcribe on Youtube",
                     },
                     "language":{
                         "type": "string",
-                        "description":"language the video should be translate into, default to english 'en' if not specified"
+                        "description":"Language the video should be translate into, default to english 'en' if not specified"
                     }
                 },
                 "required": ["video_id","language"],
